@@ -1,0 +1,43 @@
+PROGRAM:
+
+package newyear;
+import java.util.Scanner;
+public class leapyear
+{
+	public static void main(String[] args)
+	{
+ System.out.println("enter the date/month/year:");
+ @SuppressWarnings("resource")
+Scanner sc=new Scanner(System.in);
+ String re=sc.next();
+ String [] r=re.split("/",3);
+ int x=Integer. parseInt(r[2]);
+ assertTrue(x==2025);
+ if(x%4==0)
+ {
+	 System.out.println("it is a leap year:");
+ }
+ else {
+	 System.out.println("it is not a leap year:");
+	 
+ }
+
+ 
+ 
+		 
+ 
+
+	}
+
+	private static void assertTrue(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
+
+
+OUTPUT:
+enter the date/month/year:
+22/09/2004
+it is a leap year:
