@@ -1,0 +1,31 @@
+PROGRAM:
+
+package decimal;
+import java.util.Scanner;
+public class binary
+{ 
+	public static void main(String[] args) 
+	{ Scanner in = new Scanner(System.in); 
+	System.out.println("enter a number:");
+	int decimal = in.nextInt();
+	String binary = Integer.toBinaryString(decimal); 
+	System.out.println("BINARY IS " + binary); 
+  decimal to octal
+	System.out.print("OCTAL IS "); 
+	System.out.println(Integer.toOctalString(decimal));
+	//assertEqual("1100" , binary);
+	assertTrue(14== decimal);
+	 }
+	private static void assertTrue(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	}
+
+
+OUTPUT:
+ENTER AN NUMBER:
+9
+BINARY IS 1001
+OCTAL IS 11
