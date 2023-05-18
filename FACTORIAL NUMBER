@@ -1,0 +1,47 @@
+PROGRAM:
+
+package factorial;
+import java.util.Scanner;
+	class factorial1
+	{
+	public static void main(String[] args)
+	{
+	int i,j,pr=1;
+	
+	Scanner S =new Scanner(System.in);
+	System.out.println("Enter the number to find the factorial");
+	int n=S.nextInt();
+	if(n<0)
+	{
+	System.out.println("Invalid");
+	}
+	else if(n==0)
+	{
+	System.out.println("1");
+	}
+	else
+	{
+	for(i=n;i>0;i--)
+	{
+	pr=pr*i;
+	}
+	System.out.println("The answer is:"+pr);
+	assertTrue(120==pr);
+	}
+	}
+	
+	{
+	System.out.println("Invalid");
+	}
+	
+
+	private static void assertTrue(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
+	}
+
+OUTPUT:
+Enter the number to find the factorial
+9
+The answer is:362880
