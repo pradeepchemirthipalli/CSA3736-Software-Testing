@@ -1,0 +1,37 @@
+PROGRAM:
+
+
+package voting;
+import java.util.Scanner;
+ class votingsystem
+{ 
+public static void main(String[] args) 
+{ 
+int age,shrt;
+Scanner sc = new Scanner(System.in);
+System.out.println(" Please enter your age");
+age = sc.nextInt(); 
+if(age>=18) 
+{ 
+System.out.println("Welcome to voting system Yo can Vote");
+} 
+else
+{
+	shrt= (18 - age);
+System.out.println("Sorry,You can vote after :"+ shrt + " years");
+assertTrue(age==shrt);
+
+} }
+
+private static void assertTrue(boolean b) {
+	// TODO Auto-generated method stub
+	
+} }
+
+
+OUTPUT:
+ Please enter your age
+19
+Welcome to voting system Yo can Vote
+
+
