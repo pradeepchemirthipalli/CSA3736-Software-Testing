@@ -1,0 +1,36 @@
+program:
+
+package square;
+import java.io.EOFException;
+import java.util.Scanner;
+public class squarecube
+{
+ private static final String a = null;
+private static final String b = null;
+
+{
+try {
+Scanner sc=new Scanner(System.in);
+System.out.println("enter  an number:");
+double n=sc.nextDouble();
+double a=0;
+double b=0;
+a=n*n;
+b=n*n*n;
+System.out.println("the square of number="+a);
+System.out.println("the square of number="+b);
+
+
+
+{
+	System.out.println("invalid");
+}
+}
+	assertTrue(a==a);
+	assertTrue(b==b);
+
+output:
+
+Enter an number: 5
+The Square of number=25
+The Square of number=125
