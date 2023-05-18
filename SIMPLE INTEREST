@@ -1,0 +1,34 @@
+PROGRAM:
+
+
+package pune;
+import java.util.Scanner;
+public class intrest1 {
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the total amount of interest1");
+		System.out.println("enter the total months/rate of interest");
+		Float P=sc.nextFloat();
+		Float R=sc.nextFloat();
+		Float T=sc.nextFloat();
+	Float SI=(P*T*R)/100;
+	System.out.println("simple intrest1=="+SI);
+	assertTrue(3600==SI);
+	}
+
+	private static void assertTrue(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
+}
+ 
+
+	
+OUTPUT:
+enter the total amount of interest1
+enter the total months/rate of interest
+100000
+24
+2
+simple intrest1==48000.0
