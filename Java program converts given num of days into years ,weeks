@@ -1,0 +1,28 @@
+PROGRAM:
+
+package Givendays;
+import static org.junit.Assert.assertTrue;
+import java.util.Scanner;
+public class year {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int m,year,weeks,days;
+  Scanner sc=new Scanner(System.in);
+  System.out.println("Enter the number of days:");
+  m=sc.nextlnt();
+  year=m/365;
+  assertTrue(2==year);
+  m=m%365;
+  System.out.println("no.ofyears:"+year);
+  weeks=m/7;
+  m=m%7;
+  System.out.println("no.of weeks:"+weeks);
+  days=m;
+  System.out.println("no.days:"+days);}
+	}
+
+OUTPUT:
+Enter the number of days:800
+No.of years: 2
+No.of weeks: 10
+No.of days: 0
