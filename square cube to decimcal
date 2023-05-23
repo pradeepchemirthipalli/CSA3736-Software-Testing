@@ -1,33 +1,39 @@
 program:
 
-package square;
-import java.io.EOFException;
+package cube1;
 import java.util.Scanner;
-public class squarecube
-{
- private static final String a = null;
-private static final String b = null;
 
-{
-try {
-Scanner sc=new Scanner(System.in);
-System.out.println("enter  an number:");
-double n=sc.nextDouble();
-double a=0;
-double b=0;
-a=n*n;
-b=n*n*n;
-System.out.println("the square of number="+a);
-System.out.println("the square of number="+b);
+public class squarecube{
+	private static Object a;
+	private static Object b;
 
-
-
-{
-	System.out.println("invalid");
+	public static void main(String[] args) 
+	{ 
+	try{ 
+	Scanner s=new Scanner(System.in); 
+	System.out.println("Enter an number"); 
+	double n=s.nextDouble(); 
+	double a=0,b=0; 
+	a=n*n; 
+	b=n*n*n; 
+	System.out.println("The square of number="+a); 
+	System.out.println("The cube of number="+b); 
+	} 
+	catch(Exception e) 
+	{ 
+	System.out.println("Invalid"); 
+	} 
+	Object expected = null;
+	assertTrue(expected ==a);
+	assertTrue(expected ==b);
 }
+
+	private static void assertTrue(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
 }
-	assertTrue(a==a);
-	assertTrue(b==b);
+
 
 output:
 
