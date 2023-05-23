@@ -1,7 +1,6 @@
 PROGRAM:
 
 package hyd;
-package hyd;
 import java.util.Scanner;
 public class saveethatest {
 	public static void main(String[] args) {
